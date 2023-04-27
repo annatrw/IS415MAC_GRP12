@@ -1,11 +1,13 @@
 ---
-title: "IS415MAC_GRP12"
+title: "IS415 Geospatial Analytics Project"
 ---
 
-This is a Quarto website.
+# **Spatial Point Pattern Analysis of Airbnb listings in Beijing: A pre and post COVID-19 comparison**
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+By Group 12: Anna Tseng, Lu Quanfang, Michelle Lee
 
-```{r}
-1 + 1
-```
+This project is done as part of IS415 Geospatial Analytics and Applications AY2022-23 Semester 2, a module in Singapore Management University (SMU), under the guidance of Prof Kam Tin Seong.
+
+This project will create an application using R Shiny with two main types of analysis that compares Airbnb listings in Beijing before (2019) and after (2022) Covid: Spatial Point Pattern analysis and Network Constrained Spatial Point Pattern Analysis.
+
+Check out our R Shiny application [here](https://michellefaith.shinyapps.io/is415-grp12/)!

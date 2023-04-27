@@ -1,14 +1,31 @@
+
 project:
   type: website
 
 website:
-  title: "IS415MAC_GRP12"
+  title: "IS415 Geospatial Analytics Project"
   navbar:
     left:
+    - text: "Analysis"
+      menu:
+        - text: "Spatial Point Pattern Analysis"
+          href: "analysis/SPPA/SPPA.html"
+        - text: "Network Constrained SPPA"
+          href: "analysis/Network-Constrained/Network-Constrained.html"
+        
+    - text: "Proposal"
+      href: "proposal/proposal.html"
+    - text: "Research Report"
+      href: "report/Research_Report.html"
+    - text: "User Guide"
+      href: "user_guide/user_guide.html"
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
-
+      - href: about.qmd
+        text: About
+        
+      
 format:
   html:
     theme: cosmo
@@ -16,4 +33,3 @@ format:
     toc: true
 
 editor: visual
-
